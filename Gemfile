@@ -55,6 +55,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Boostrap gem
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
+# SimpleForm to help build forms for our app
+gem 'simple_form'
+
 # Enable pagination with will_paginate gem
 gem 'will_paginate','~> 3.1','>=3.1.6'
 
