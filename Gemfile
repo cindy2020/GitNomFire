@@ -65,4 +65,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
+# Enable Plus sign icon in Nav Bar
 gem "font-awesome-rails"
+
+# Enable user authentication
+gem 'devise'

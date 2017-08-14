@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Enable password reset email useing devise gem
+  config.action_mailer.default_url_options = { host: 'nomster-cindy-ohara.herokuapp.com' }
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
