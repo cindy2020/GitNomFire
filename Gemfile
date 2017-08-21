@@ -70,3 +70,10 @@ gem "font-awesome-rails"
 
 # Enable user authentication
 gem 'devise'
+
+# Enable geocoding - converting a street address
+# to latitude and longitude for map
+gem "geocoder"
+
+# Enable add values to ENV, environment, variable
+gem "figaro"
